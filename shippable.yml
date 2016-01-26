@@ -29,7 +29,7 @@ build:
     - ls -al
 
   post_ci:
-    - docker push gcr.io/vidya-project/newimg
+    - docker push gcr.io/vidya-project/newimg3
 
   smoke_test:
     - sudo ls /
