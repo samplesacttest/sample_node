@@ -29,7 +29,8 @@ build:
     - ls -al
 
   post_ci:
-    - docker push gcr.io/vidya-project/newimg4
+    #- docker tag -f drydock/u14nod shippabledocker/vidya_sample_node
+    - docker push gcr.io/vidya-project/newimg3
 
   smoke_test:
     - sudo ls /
